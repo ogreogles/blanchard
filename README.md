@@ -1,2 +1,1 @@
-# blanchard
-Blanchard
+https://ogreogles.github.io/blanchard/
