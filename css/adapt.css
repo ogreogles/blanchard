@@ -1,0 +1,875 @@
+@media (min-width: 320px) and (max-width: 699.5px) {
+  :hover:not(:focus):not(:active) {
+    pointer-events: none;
+  }
+
+  header,
+  footer {
+    min-width: 290px;
+  }
+
+  .container:not(:last-child) {
+    min-width: 290px;
+  }
+
+  h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .title {
+    margin-bottom: 12px;
+  }
+
+  .header,
+  .header__container {
+    height: 78px;
+  }
+
+  .header__container {
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 16px 15px 12px 15px;
+    font-weight: var(--h1-font-weight);
+    font-family: "Open Sans Bold";
+    line-height: normal;
+  }
+
+  .header__container,
+  .hero__container,
+  .gallery__right,
+  .catalogue__card,
+  .events__list,
+  .contacts__wrapper {
+    flex-direction: column;
+  }
+
+  .header__container,
+  .events__list,
+  .projects__wrap,
+  .contacts__form {
+    flex-wrap: wrap;
+  }
+
+  .header__container,
+  .gallery__right,
+  .catalogue__card,
+  .contacts__wrapper {
+    align-items: flex-start;
+  }
+
+  .header__container,
+  .hero__descr,
+  .btn-style {
+    font-size: var(--mobile-font-size);
+  }
+
+  .header__logo-link,
+  .header__logo-img {
+    max-height: 22px;
+  }
+
+  .header__logo-img {
+    max-width: 97px;
+  }
+
+  .header__nav {
+    order: 3;
+    margin-left: 0;
+    margin-right: 0;
+    height: 16px;
+    max-width: 105.5%;
+  }
+
+  .header__nav {
+    overflow-x: scroll;
+  }
+
+  .header__nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 25px;
+  }
+
+  .btn-search {
+    top: 18px;
+    right: 15px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .hero {
+    height: 310px;
+  }
+
+  .hero__container {
+    display: flex;
+    align-items: center;
+    padding: 50px 15px;
+    text-align: center;
+    background-position: 0 -78px;
+    background-image: url("../img/hero-banner-1-mobile.jpg");
+  }
+
+  .hero__title {
+    margin-bottom: 10px;
+    font-size: var(--body-line-height);
+    line-height: 87.5%;
+  }
+
+  .hero__descr {
+    margin-bottom: 40px;
+    padding-left: 3.5px;
+    padding-right: 3.5px;
+    line-height: normal;
+  }
+
+  .hero__descr,
+  .events__info,
+  .contacts__messengers--caption {
+    font-family: "Open Sans Regular";
+    font-weight: var(--body-font-weight);
+  }
+
+  .btn-style,
+  .projects__partners--pic,
+  .contacts__form--input {
+    height: 40px;
+  }
+
+  .hero__link {
+    padding: 11px 16.13px 14.45px 19.14px;
+    min-width: 200px;
+    max-width: 200px;
+    line-height: normal;
+  }
+
+  .about {
+    padding-top: 0;
+  }
+
+  .about__container,
+  .gallery__container,
+  .catalogue__container,
+  .events__container,
+  .projects__container {
+    padding: 50px 15px;
+  }
+
+.events__container {
+  padding-top: 0;
+}
+
+.projects__container {
+  padding-top: 0;
+}
+
+  .about__descr {
+    margin-bottom: -9px;
+    font-size: 14px;
+    line-height: 200%;
+  }
+
+  .gallery {
+    background-image: url(../img/gallery-bg-mobile.jpg);
+  }
+
+  .gallery__content {
+    display: block;
+  }
+
+  .gallery__left,
+  .gallery__picture:not(:last-child),
+  .catalogue__descr,
+  .catalogue__card:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  .gallery__right {
+    margin-top: 0;
+  }
+
+  .gallery__picture {
+    max-height: 290px;
+  }
+
+  .projects__wrap,
+  .projects__partners,
+  .contacts__form,
+  .contacts__form--name,
+  .contacts__form--tel {
+    width: 290px;
+  }
+
+  .catalogue__descr {
+    padding-right: 0;
+  }
+
+  .catalogue__card {
+    justify-content: flex-start;
+    padding-top: 201px;
+    padding-left: 0;
+    width: 290px;
+    background: left top / 100% 181px no-repeat var(--color-white);
+  }
+
+  .catalogue__card--1 {
+    min-height: 783px;
+    background-image: url("../img/painter-1-mobile.jpg");
+  }
+
+  .catalogue__card--2 {
+    min-height: 784px;
+    background-image: url("../img/painter-2-mobile.jpg");
+  }
+
+  .catalogue__card--3 {
+    min-height: 783px;
+    background-image: url("../img/painter-3-mobile.jpg");
+  }
+
+  .catalogue__content--name {
+    margin-bottom: 0;
+    margin-bottom: 4px;
+    height: 26px;
+    line-height: 33px;
+  }
+
+  .catalogue__content--name-ver {
+    padding-right: 1px;
+    height: 59px;
+    line-height: 33px;
+  }
+
+  .events__list {
+    gap: 20px;
+  }
+
+  .events__card {
+    min-height: 683px;
+  }
+
+  .events__picture {
+    height: 200px;
+  }
+
+  .events__content {
+    padding: 17px 17px 49px 23px;
+  }
+
+  .events__info {
+    align-self: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+
+  .events__subtitle {
+    margin-bottom: 5px;
+  }
+
+  .events__subtitle--grav {
+    padding-right: 0;
+  }
+
+  .events__link {
+    margin-left: 6px;
+  }
+
+  .events__descr--discussion {
+    padding-right: 13px;
+  }
+
+  .projects {
+    border-bottom: none;
+  }
+
+  .projects,
+  .projects__container {
+    height: max-content;
+  }
+
+  .projects__subtitle {
+    margin-bottom: 11px;
+  }
+
+  .projects__subtitle,
+  .contacts__shop,
+  .contacts__messengers--caption {
+    font-size: var(--h4-font-size);
+  }
+
+  .projects__descr {
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
+
+  .projects__wrap {
+    height: 212px;
+  }
+
+  .projects__partners {
+    padding: 24.7px;
+    height: 100px;
+  }
+
+  .projects__partners:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .contacts {
+    height: 387px;
+  }
+
+  .contacts__wrapper {
+    padding: 0;
+    padding-left: 15px;
+    padding-bottom: 50px;
+    height: 387px;
+  }
+
+  .contacts__address {
+    height: 48px;
+  }
+
+  .contacts__shop {
+    height: 25px;
+    line-height: 25px;
+  }
+
+  .contacts__form {
+    align-content: space-between;
+    height: 160px;
+  }
+
+  .contacts__form--btn {
+    width: 128px;
+  }
+
+  .contacts__btn--span {
+    display: none;
+  }
+
+  .contacts__location {
+    height: 19px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .contacts__messengers {
+    height: 89px;
+  }
+
+  .footer {
+    padding: 20px 15px 20.33px;
+    height: 132px;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+    align-content: space-between;
+  }
+
+  .footer__logo-link {
+    height: 21.67px;
+  }
+
+  .footer__logo-img {
+    width: 96.8px;
+    height: 21.67px;
+  }
+
+  .footer__socials--link,
+  .footer__socials--link svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .just-validate-error-label {
+    bottom: 33px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 992px) {
+  header,
+  footer {
+    min-width: 100%;
+  }
+
+  .header {
+    height: 147px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 32px 54px 24px 50px;
+    height: 147px;
+  }
+
+  .header__logo-link {
+    max-height: 42px;
+  }
+
+  .header__logo-img {
+    max-width: 188px;
+    max-height: 42px;
+  }
+
+  .header__nav {
+    order: 3;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(100vw - 100px);
+  }
+
+  .nav__list {
+    justify-content: space-between;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .btn-search {
+    position: absolute;
+    top: 39px;
+    right: 50px;
+  }
+
+  .container:not(:last-child) {
+    min-width: 100%;
+  }
+
+  .hero {
+    height: 621px;
+  }
+
+  .hero__container {
+    padding: 87px 13% 86px 50px;
+    height: 621px;
+    background-position: top right;
+    background-image: url("../img/hero-banner-1-tablet-small.jpg");
+  }
+
+  .hero__descr {
+    margin-bottom: 132px;
+  }
+
+  .about {
+    padding-top: 0;
+  }
+
+  .about__container,
+  .gallery__container,
+  .catalogue__container,
+  .events__container,
+  .projects__container {
+    margin: 80px min(calc(50% - 334px), 50px);
+    padding: 0;
+  }
+
+  .about__container,
+  .gallery__container,
+  .catalogue__container,
+  .projects__container,
+  .catalogue__wrapper,
+  .catalogue__card,
+  .events__card {
+    width: 668px;
+  }
+
+  .about__descr {
+    margin-bottom: -10px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-image: url(../img/gallery-bg-tablet-small.jpg);
+  }
+
+  .gallery__container {
+    min-width: 618px;
+  }
+
+  .gallery__title {
+    align-self: flex-start;
+  }
+
+  .gallery__left {
+    margin-bottom: 30px;
+  }
+
+  .gallery__right {
+    margin-top: 0;
+  }
+
+  .gallery__picture {
+    height: 200px;
+  }
+
+  .catalogue__descr {
+    padding-right: 0;
+  }
+
+  .catalogue__card {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 449px;
+    padding-left: 0;
+    background: left top / 100% 419px no-repeat var(--color-white);
+  }
+
+  .catalogue__card--1 {
+    min-height: 737px;
+    background-image: url("../img/painter-1-tablet-small.jpg");
+  }
+
+  .catalogue__card--2 {
+    min-height: 705px;
+    background-image: url("../img/painter-2-tablet-small.jpg");
+  }
+
+  .catalogue__card--3 {
+    min-height: 737px;
+    background-image: url("../img/painter-3-tablet-small.jpg");
+  }
+
+  .catalogue__content--name {
+    margin-bottom: 0;
+    line-height: 33px;
+  }
+
+  .catalogue__content--date {
+    line-height: 15px;
+  }
+
+  .catalogue__content--text {
+    margin-top: -1px;
+  }
+
+  .events {
+    margin: 0 6.51vw;
+  }
+
+    .events__list {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .events__picture {
+    max-height: 200px;
+  }
+
+  .events__content {
+    padding: 14px 34px 48px;
+    min-height: 328px;
+  }
+
+  .events__info {
+    align-self: flex-end;
+    align-items: flex-end;
+    margin-bottom: 4px;
+    font-weight: var(--body-font-weight);
+    font-family: "Open Sans Regular";
+  }
+
+  .events__subtitle {
+    margin-bottom: 14px;
+    padding-right: 104px;
+  }
+
+  .projects__subtitle {
+    margin-bottom: 29px;
+  }
+
+  .projects__descr {
+    margin-bottom: 28px;
+    padding-right: 2%;
+  }
+
+  .projects__wrap {
+    width: calc(100vw - 101px);
+  }
+
+  .projects__partners:first-child {
+    width: 316px;
+  }
+
+  .projects__partners:last-child {
+    width: 317px;
+  }
+
+  .projects__partners--pic {
+    width: 275px;
+    height: 68px;
+  }
+
+  .contacts {
+    height: 397px;
+  }
+
+  .contacts__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 43px 50px;
+    height: 397px;
+  }
+
+  .contacts__address {
+    height: 61px;
+  }
+
+  .contacts__location {
+    height: 19px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .contacts__form {
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 86.8vw;
+    height: 112px;
+  }
+
+  .contacts__form--name {
+    width: 42.1vw;
+  }
+
+  .contacts__form--tel {
+    width: 42.2vw;
+  }
+
+  .contacts__form--btn {
+    width: min(54%, 317px);
+  }
+
+  .footer {
+    padding: 40px 50px 40px 51.5px;
+    height: 140px;
+  }
+
+  .footer__socials--link,
+  .footer__socials--link svg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1919px) {
+  .container {
+    padding: 0 50px;
+  }
+
+  .header {
+    height: 147px;
+  }
+
+  .header__container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 32px 50px 24px;
+    height: 147px;
+  }
+
+  .header__logo-link {
+    max-height: 42px;
+  }
+
+  .header__logo-img {
+    max-width: 188px;
+    max-height: 42px;
+  }
+
+  .header__nav {
+    order: 3;
+    margin-left: 0;
+    margin-right: 0;
+    width: calc(100vw - 100px);
+  }
+
+  .nav__list {
+    justify-content: space-between;
+  }
+
+  .nav__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .btn-search {
+    right: 50px;
+  }
+
+  .hero {
+    height: 621px;
+  }
+
+  .hero__container {
+    padding: 101px calc(100% - 800px) 101px 50px;
+    height: 621px;
+    background-position: top right;
+    background-image: url("../img/hero-banner-1-tablet-big.jpg");
+  }
+
+  .hero__descr {
+    margin-bottom: 133px;
+  }
+
+  .about {
+    padding-top: 0;
+  }
+
+  .about__container,
+  .gallery__container,
+  .catalogue__container,
+  .projects__container {
+    padding: 80px 50px;
+  }
+
+  .about__descr {
+    margin-bottom: -10px;
+  }
+
+  .gallery {
+    background-image: url(../img/gallery-bg-tablet-big.jpg);
+  }
+
+  .gallery__left {
+    margin-bottom: 30px;
+  }
+
+  .gallery__right {
+    margin-top: 0;
+  }
+
+  .gallery__picture {
+    height: 275px;
+  }
+
+  .catalogue__descr {
+    padding-right: 0;
+  }
+
+  .catalogue__card {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 609px;
+    padding-left: 0;
+    width: calc(100vw - 100px);
+    max-width: 924px;
+    min-height: 843px;
+    background: left top / 100% 579px no-repeat var(--color-white);
+  }
+
+  .catalogue__card--1 {
+    background-image: url("../img/painter-1-tablet-big.jpg");
+  }
+
+  .catalogue__card--2 {
+    background-image: url("../img/painter-2-tablet-big.jpg");
+  }
+
+  .catalogue__card--3 {
+    background-image: url("../img/painter-3-tablet-big.jpg");
+  }
+
+  .catalogue__content--name {
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+
+  .catalogue__content--text-ver {
+    padding-right: 3px;
+  }
+
+  .events__list {
+    gap: 27px;
+  }
+
+  .events__picture {
+    max-height: 200px;
+  }
+
+  .events__content {
+    padding: 14px 33.2px 49px;
+    min-height: 483px;
+  }
+
+  .events__info {
+    align-self: flex-end;
+    align-items: flex-end;
+    margin-bottom: 4px;
+    font-weight: var(--body-font-weight);
+    font-family: "Open Sans Regular";
+  }
+
+  .events__subtitle {
+    margin-bottom: 5px;
+  }
+
+  .events__subtitle--grav {
+    margin-bottom: 8px;
+    padding-right: 0;
+  }
+
+  .projects__descr {
+    margin-bottom: 20px;
+    padding-right: 0;
+  }
+
+  .projects__partners:not(:last-child) {
+    margin-right: 27px;
+  }
+
+  .projects__partners--pic {
+    height: 68px;
+  }
+
+  .contacts {
+    height: 335px;
+  }
+
+  .contacts__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 43px 0 43px 1px;
+    height: 335px;
+  }
+
+  .contacts__address {
+    height: 61px;
+  }
+
+  .contacts__location {
+    height: 19px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .contacts__form {
+    width: 923px;
+  }
+
+  .contacts__form--btn {
+    width: 343px;
+  }
+
+  .footer {
+    padding: 40px 0 40px 1px;
+  }
+
+  .footer__socials--link,
+  .footer__socials--link svg {
+    width: 60px;
+    height: 60px;
+  }
+}
